@@ -10,4 +10,4 @@ Each folder in this repo is one self-contained skill, prompt, or project. Every 
 
 ## Skills
 
-_Nothing published yet — first one coming soon._
+- [**social-content-copilot**](./social-content-copilot) — turns a content calendar entry into ready-to-use social copy (headline, caption, hashtags) matched to the right format (carousel, stat post, thought post), with Canva handoff for the visual.

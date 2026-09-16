@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+
+  <text x="56" y="100" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#f8fafc">
+    Social Content Copilot
+  </text>
+  <text x="56" y="136" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#94a3b8">
+    A Claude Skill — content calendar entry in, ready-to-post copy out
+  </text>
+
+  <!-- three format cards -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <!-- Carousel -->
+    <rect x="56" y="180" width="330" height="90" rx="10" fill="#0b1220" stroke="#334155" stroke-width="1.5"/>
+    <text x="80" y="212" font-size="18" font-weight="700" fill="#38bdf8">Carousel</text>
+    <text x="80" y="238" font-size="14" fill="#94a3b8">hook → explainer → proof → closer</text>
+
+    <!-- Stat post -->
+    <rect x="410" y="180" width="330" height="90" rx="10" fill="#0b1220" stroke="#334155" stroke-width="1.5"/>
+    <text x="434" y="212" font-size="18" font-weight="700" fill="#818cf8">Stat Post</text>
+    <text x="434" y="238" font-size="14" fill="#94a3b8">real stat stays the visual hero</text>
+
+    <!-- Thought post -->
+    <rect x="764" y="180" width="330" height="90" rx="10" fill="#0b1220" stroke="#334155" stroke-width="1.5"/>
+    <text x="788" y="212" font-size="18" font-weight="700" fill="#f472b6">Thought Post</text>
+    <text x="788" y="238" font-size="14" fill="#94a3b8">headline + supporting line + caption</text>
+  </g>
+</svg>

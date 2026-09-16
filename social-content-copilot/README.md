@@ -1,5 +1,4 @@
-<!-- cover.png: drop a screenshot here showing a before (calendar row) / after (finished post) -->
-![cover](./cover.png)
+![cover](./cover.svg)
 
 # Social Content Copilot
 

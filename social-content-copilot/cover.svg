@@ -1,41 +1,63 @@
 <svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#818cf8"/>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="wave3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="#f6efe1"/>
 
-  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+  <!-- tech waves -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M -50 60 C 200 10, 350 110, 600 60 S 1000 10, 1250 60"
+          stroke="url(#wave1)" stroke-width="3" opacity="0.55"/>
+    <path d="M -50 90 C 250 140, 400 40, 650 90 S 1000 140, 1250 90"
+          stroke="url(#wave2)" stroke-width="2.5" opacity="0.4"/>
+    <path d="M -50 268 C 200 230, 380 300, 620 268 S 1000 230, 1250 268"
+          stroke="url(#wave3)" stroke-width="3" opacity="0.5"/>
+    <path d="M -50 285 C 220 260, 420 300, 660 280 S 1020 255, 1250 285"
+          stroke="url(#wave2)" stroke-width="2" opacity="0.35"/>
+  </g>
 
-  <text x="56" y="100" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#f8fafc">
+  <!-- circuit-style dots along top wave -->
+  <g fill="#6366f1" opacity="0.6">
+    <circle cx="200" cy="14" r="4"/>
+    <circle cx="480" cy="86" r="4"/>
+    <circle cx="760" cy="18" r="4"/>
+    <circle cx="1040" cy="82" r="4"/>
+  </g>
+
+  <text x="56" y="102" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#1e293b">
     Social Content Copilot
   </text>
-  <text x="56" y="136" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#94a3b8">
+  <text x="56" y="138" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#57534e">
     A Claude Skill — content calendar entry in, ready-to-post copy out
   </text>
 
   <!-- three format cards -->
   <g font-family="Arial, Helvetica, sans-serif">
-    <!-- Carousel -->
-    <rect x="56" y="180" width="330" height="90" rx="10" fill="#0b1220" stroke="#334155" stroke-width="1.5"/>
-    <text x="80" y="212" font-size="18" font-weight="700" fill="#38bdf8">Carousel</text>
-    <text x="80" y="238" font-size="14" fill="#94a3b8">hook → explainer → proof → closer</text>
+    <rect x="56" y="180" width="330" height="90" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="56" y="180" width="6" height="90" rx="3" fill="#14b8a6"/>
+    <text x="80" y="212" font-size="18" font-weight="700" fill="#0f766e">Carousel</text>
+    <text x="80" y="238" font-size="14" fill="#6b7280">hook → explainer → proof → closer</text>
 
-    <!-- Stat post -->
-    <rect x="410" y="180" width="330" height="90" rx="10" fill="#0b1220" stroke="#334155" stroke-width="1.5"/>
-    <text x="434" y="212" font-size="18" font-weight="700" fill="#818cf8">Stat Post</text>
-    <text x="434" y="238" font-size="14" fill="#94a3b8">real stat stays the visual hero</text>
+    <rect x="410" y="180" width="330" height="90" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="410" y="180" width="6" height="90" rx="3" fill="#6366f1"/>
+    <text x="434" y="212" font-size="18" font-weight="700" fill="#4338ca">Stat Post</text>
+    <text x="434" y="238" font-size="14" fill="#6b7280">real stat stays the visual hero</text>
 
-    <!-- Thought post -->
-    <rect x="764" y="180" width="330" height="90" rx="10" fill="#0b1220" stroke="#334155" stroke-width="1.5"/>
-    <text x="788" y="212" font-size="18" font-weight="700" fill="#f472b6">Thought Post</text>
-    <text x="788" y="238" font-size="14" fill="#94a3b8">headline + supporting line + caption</text>
+    <rect x="764" y="180" width="330" height="90" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="764" y="180" width="6" height="90" rx="3" fill="#fb7185"/>
+    <text x="788" y="212" font-size="18" font-weight="700" fill="#be123c">Thought Post</text>
+    <text x="788" y="238" font-size="14" fill="#6b7280">headline + supporting line + caption</text>
   </g>
 </svg>

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="360" rx="14" fill="#f6efe1"/>
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1e293b">How it works: same skill, three data levels</text>
+
+  <!-- data levels ladder -->
+  <g>
+    <rect x="40" y="226" width="300" height="70" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="40" y="226" width="6" height="70" rx="3" fill="#14b8a6"/>
+    <text x="62" y="254" font-size="16" font-weight="700" fill="#0f766e">1. Research</text>
+    <text x="62" y="276" font-size="13" fill="#6b7280">web + pages only · free · works today</text>
+
+    <rect x="40" y="148" width="300" height="70" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="40" y="148" width="6" height="70" rx="3" fill="#f59e0b"/>
+    <text x="62" y="176" font-size="16" font-weight="700" fill="#b45309">2. Your exports</text>
+    <text x="62" y="198" font-size="13" fill="#6b7280">Keyword Planner, Semrush, GSC CSVs</text>
+
+    <rect x="40" y="70" width="300" height="70" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="40" y="70" width="6" height="70" rx="3" fill="#6366f1"/>
+    <text x="62" y="98" font-size="16" font-weight="700" fill="#4338ca">3. Live</text>
+    <text x="62" y="120" font-size="13" fill="#6b7280">Semrush / Search Console connected</text>
+  </g>
+  <text x="352" y="92" font-size="12" fill="#78716c">more precise</text>
+  <path d="M 360 280 L 360 104" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- workflows -->
+  <g>
+    <rect x="420" y="70" width="400" height="226" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <text x="444" y="102" font-size="16" font-weight="700" fill="#1e293b">7 workflows</text>
+    <g font-size="14" fill="#44403c">
+      <text x="444" y="132">Site audit</text>
+      <text x="444" y="158">Competitor content gap</text>
+      <text x="444" y="184">Keyword map (TOFU / MOFU / BOFU)</text>
+      <text x="444" y="210">Keyword scoring (Impact × Confidence)*</text>
+      <text x="444" y="236">Trend scout</text>
+      <text x="444" y="262">Content brief · Company SEO snapshot</text>
+    </g>
+    <text x="444" y="286" font-size="11" fill="#a8a29e">* needs level 2 or 3</text>
+  </g>
+
+  <!-- output -->
+  <g>
+    <rect x="900" y="112" width="260" height="142" rx="10" fill="#1e293b"/>
+    <text x="922" y="146" font-size="16" font-weight="700" fill="#f6efe1">Every output</text>
+    <text x="922" y="174" font-size="13" fill="#cbd5e1">① data-level label</text>
+    <text x="922" y="196" font-size="13" fill="#cbd5e1">② findings table</text>
+    <text x="922" y="218" font-size="13" fill="#cbd5e1">③ top 3-5 actions</text>
+    <text x="922" y="240" font-size="13" fill="#cbd5e1">④ what data would sharpen it</text>
+  </g>
+
+  <g stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M 376 183 L 414 183"/>
+    <path d="M 820 183 L 894 183"/>
+  </g>
+
+  <text x="40" y="332" font-size="13" fill="#78716c">No invented numbers: without real data, volumes and difficulty are labelled as estimates.</text>
+</svg>

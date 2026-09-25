@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="330" rx="14" fill="#f6efe1"/>
+
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1e293b">How it works</text>
+
+  <!-- inputs -->
+  <g>
+    <rect x="40" y="80" width="200" height="72" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <text x="60" y="110" font-size="16" font-weight="700" fill="#1e293b">Your idea</text>
+    <text x="60" y="132" font-size="13" fill="#6b7280">topic, story, stat, take</text>
+
+    <rect x="40" y="172" width="200" height="72" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <text x="60" y="202" font-size="16" font-weight="700" fill="#1e293b">Your voice</text>
+    <text x="60" y="224" font-size="13" fill="#6b7280">built from 3-5 of your posts</text>
+  </g>
+
+  <!-- steps -->
+  <g>
+    <rect x="300" y="116" width="190" height="92" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="300" y="116" width="6" height="92" rx="3" fill="#6366f1"/>
+    <text x="322" y="146" font-size="16" font-weight="700" fill="#4338ca">1. Post type</text>
+    <text x="322" y="168" font-size="13" fill="#6b7280">story / opinion /</text>
+    <text x="322" y="186" font-size="13" fill="#6b7280">stat / tech</text>
+
+    <rect x="530" y="116" width="190" height="92" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="530" y="116" width="6" height="92" rx="3" fill="#f59e0b"/>
+    <text x="552" y="146" font-size="16" font-weight="700" fill="#b45309">2. Platform</text>
+    <text x="552" y="168" font-size="13" fill="#6b7280">LinkedIn / X / both</text>
+    <text x="552" y="186" font-size="13" fill="#6b7280">hook, format, tags</text>
+
+    <rect x="760" y="116" width="190" height="92" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="760" y="116" width="6" height="92" rx="3" fill="#fb7185"/>
+    <text x="782" y="146" font-size="16" font-weight="700" fill="#be123c">3. AI-writing check</text>
+    <text x="782" y="168" font-size="13" fill="#6b7280">24 patterns, keeps</text>
+    <text x="782" y="186" font-size="13" fill="#6b7280">your style, 90+ ships</text>
+  </g>
+
+  <!-- output -->
+  <g>
+    <rect x="990" y="104" width="170" height="116" rx="10" fill="#1e293b"/>
+    <text x="1010" y="138" font-size="16" font-weight="700" fill="#f6efe1">Ready to post</text>
+    <text x="1010" y="164" font-size="13" fill="#cbd5e1">+ 2 alt hooks</text>
+    <text x="1010" y="184" font-size="13" fill="#cbd5e1">+ visual brief</text>
+    <text x="1010" y="204" font-size="13" fill="#cbd5e1">+ what to verify</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M 240 116 C 270 116, 270 150, 296 156"/>
+    <path d="M 240 208 C 270 208, 270 172, 296 168"/>
+    <path d="M 490 162 L 526 162"/>
+    <path d="M 720 162 L 756 162"/>
+    <path d="M 950 162 L 986 162"/>
+  </g>
+
+  <!-- rewrite loop -->
+  <path d="M 855 208 C 855 260, 625 260, 625 212" stroke="#fb7185" stroke-width="2" stroke-dasharray="5 5" fill="none" marker-end="url(#arrow)"/>
+  <text x="680" y="276" font-size="13" fill="#be123c">below 90: rewrite and re-check</text>
+
+  <text x="40" y="306" font-size="13" fill="#78716c">Your style (emoji, asides, industry language) is on a keep list. The check removes AI tells, not personality.</text>
+</svg>

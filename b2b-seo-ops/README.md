@@ -21,7 +21,7 @@ It never invents search volumes, difficulty scores, or rankings. Without real da
 
 1. **Get the skill.** Download this folder (`b2b-seo-ops`), either by cloning the repo or by downloading just this folder from GitHub.
 2. **Add it to Claude.**
-   - **Claude app:** turn on *Code execution and file creation* in Settings → Capabilities, zip the `b2b-seo-ops` folder, then Customize → Skills → **+** → Upload a skill. Upload the zip itself, not a file inside it. See [Anthropic's skills documentation](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview).
+   - **Claude app:** turn on *Code execution and file creation* in Settings → Capabilities. Download the ready-made [`b2b-seo-ops.zip`](../b2b-seo-ops.zip) (or zip the `b2b-seo-ops` folder yourself), then Customize → Skills → **+** → Upload a skill. Upload the zip itself, not a file inside it. See [Anthropic's skills documentation](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview).
    - **Claude Code:** copy the whole folder into `~/.claude/skills/`.
 3. **Ask in plain words.** Start a new chat and try:
    - *"Audit example.com: what does it sell, to whom, and what buyer questions is it missing?"*

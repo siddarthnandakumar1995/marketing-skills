@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="wave3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="#f6efe1"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M -50 58 C 210 12, 370 108, 610 58 S 1000 12, 1250 58"
+          stroke="url(#wave1)" stroke-width="3" opacity="0.5"/>
+    <path d="M -50 90 C 230 138, 410 42, 650 90 S 1010 138, 1250 90"
+          stroke="url(#wave2)" stroke-width="2.5" opacity="0.4"/>
+    <path d="M -50 270 C 210 235, 390 300, 630 270 S 1010 235, 1250 270"
+          stroke="url(#wave3)" stroke-width="3" opacity="0.45"/>
+    <path d="M -50 287 C 230 262, 430 300, 670 282 S 1030 258, 1250 287"
+          stroke="url(#wave2)" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- rising bars motif, top right -->
+  <g fill="#14b8a6" opacity="0.55">
+    <rect x="1040" y="40" width="14" height="20" rx="3"/>
+    <rect x="1062" y="30" width="14" height="30" rx="3"/>
+    <rect x="1084" y="18" width="14" height="42" rx="3"/>
+    <rect x="1106" y="6" width="14" height="54" rx="3"/>
+  </g>
+
+  <text x="56" y="102" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#1e293b">
+    B2B SEO Ops
+  </text>
+  <text x="56" y="138" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#57534e">
+    A Claude Skill: what a site says, what it's missing, and what to write next
+  </text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="56" y="180" width="255" height="90" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="56" y="180" width="6" height="90" rx="3" fill="#14b8a6"/>
+    <text x="80" y="212" font-size="18" font-weight="700" fill="#0f766e">Site audit</text>
+    <text x="80" y="238" font-size="14" fill="#6b7280">pages, positioning, buyer Qs</text>
+
+    <rect x="327" y="180" width="255" height="90" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="327" y="180" width="6" height="90" rx="3" fill="#6366f1"/>
+    <text x="351" y="212" font-size="18" font-weight="700" fill="#4338ca">Competitor gaps</text>
+    <text x="351" y="238" font-size="14" fill="#6b7280">who covers what, what's open</text>
+
+    <rect x="598" y="180" width="255" height="90" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="598" y="180" width="6" height="90" rx="3" fill="#f59e0b"/>
+    <text x="622" y="212" font-size="18" font-weight="700" fill="#b45309">Keywords</text>
+    <text x="622" y="238" font-size="14" fill="#6b7280">funnel map, Impact × Confidence</text>
+
+    <rect x="869" y="180" width="275" height="90" rx="10" fill="#fffdf8" stroke="#e7dfc9" stroke-width="1.5"/>
+    <rect x="869" y="180" width="6" height="90" rx="3" fill="#fb7185"/>
+    <text x="893" y="212" font-size="18" font-weight="700" fill="#be123c">Trends + briefs</text>
+    <text x="893" y="238" font-size="14" fill="#6b7280">what's rising, what to write</text>
+  </g>
+</svg>

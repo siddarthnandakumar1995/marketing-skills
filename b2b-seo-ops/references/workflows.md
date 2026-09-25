@@ -87,14 +87,16 @@ Top actions
 ## 4. Keyword scoring (Level 2 or 3 only)
 
 1. Read the export (see `data-levels.md` for columns).
-2. Classify the funnel stage, and score Impact, Confidence, and Priority (see `scoring.md`).
+2. Classify the funnel stage, score Impact, Confidence, and Priority, and add the plain-language label (see `scoring.md`).
 3. Flag quick wins and assign an execution path.
 
 **Output:**
 ```
 Data level: ...
 Top 20 by priority
-| # | Keyword | Stage | Vol | KD | Pos | Impact | Conf | Priority | Path |
+| # | Keyword | Stage | Vol | KD | Pos | Impact | Conf | Priority | Label | Path |
+
+Summary: count per label (e.g. "6 Do first · 4 Long-term bets · 7 Easy fillers · 3 Skip")
 
 Quick wins (positions 5-20)
 Notes on missing data (e.g. "No KD in Keyword Planner export; confidence uses position only")

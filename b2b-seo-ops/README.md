@@ -98,15 +98,33 @@ Multiplying means a keyword needs **both** to score well. It has to be worth win
 
 **Example** for a fictional IT monitoring company:
 
-| Keyword | Impact | Confidence | Priority | What it means |
+| Keyword | Impact | Confidence | Priority | Label |
 |---|---|---|---|---|
-| "IT monitoring software" | 9, high value | 2, very hard, big brands own it | **18** | Valuable, but hard to win right now. A long-term play. |
-| "[Product] vs [Competitor]" | 7, buyers comparing options | 8, low competition, and you're the expert | **56** | **Do this first** |
-| "what is uptime" | 3, people learning, not buying | 9, easy | **27** | Easy, but low value |
+| "[Product] vs [Competitor]" | 7, buyers comparing options | 8, low competition, and you're the expert | **56** | ✅ **Do first** |
+| "what is uptime" | 3, people learning, not buying | 9, easy | **27** | ➕ **Easy filler** |
+| "IT monitoring software" | 9, high value | 2, very hard, big brands own it | **18** | 🎯 **Long-term bet** |
+| "free IT monitoring memes" | 1, no buyers here | 3, crowded with random sites | **3** | ⛔ **Skip** |
 
-**Compared with a high / medium / low "opportunity" label:** it's the same idea, with two differences.
+### The plain-language version: four labels
+
+Every scored keyword also gets a label, so you can explain the results to anyone (leadership, sales, a hiring manager) without the numbers:
+
+| | **Winnable** (high confidence) | **Hard to win** (low confidence) |
+|---|---|---|
+| **Worth it** (high impact) | ✅ **Do first** | 🎯 **Long-term bet** |
+| **Not worth much** (low impact) | ➕ **Easy filler** | ⛔ **Skip** |
+
+- **Do first**: valuable and winnable. Start here.
+- **Long-term bet**: valuable but hard today. Build toward it over months.
+- **Easy filler**: quick to win, low value. Do it when it's cheap or supports a "Do first" page.
+- **Skip**: not worth the effort right now.
+
+In one sentence: *"I score every keyword on how much it's worth if we win and how likely we are to win it. Both go first; valuable-but-hard become long-term bets."*
+
+**Compared with a plain high / medium / low "opportunity" label:** it's the same idea, with three differences.
 1. **It shows why.** You can see whether a keyword scores low because it isn't valuable (skip it) or because it's too hard today (plan for it).
-2. **It only runs on real data.** Without volume and difficulty numbers, the skill doesn't produce scores. It gives funnel stages and clearly labelled estimates instead.
+2. **The labels say what to do.** "Long-term bet" and "Skip" are decisions; "medium" isn't.
+3. **It only runs on real data.** Without volume and difficulty numbers, the skill doesn't produce scores. It gives funnel stages and clearly labelled estimates instead.
 
 The exact points behind each score, adjusted for B2B search volumes, are in [`references/scoring.md`](./references/scoring.md).
 

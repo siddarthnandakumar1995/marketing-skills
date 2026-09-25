@@ -45,6 +45,22 @@ Cap at 10. **If there's no difficulty data** (e.g. Keyword Planner only), don't 
 
 **Priority = Impact × Confidence** (max 100). Sort descending.
 
+### Plain-language label
+
+Give every scored keyword a label, so the result makes sense to people outside SEO. Impact or Confidence of **5 or more** counts as high.
+
+| | **High confidence** (winnable) | **Low confidence** (hard to win) |
+|---|---|---|
+| **High impact** (worth it) | ✅ **Do first** | 🎯 **Long-term bet** |
+| **Low impact** (not worth much) | ➕ **Easy filler** | ⛔ **Skip** |
+
+- **Do first**: valuable and winnable. The top of the plan.
+- **Long-term bet**: valuable but hard today. Plan for it: build topic authority and links, and revisit quarterly.
+- **Easy filler**: quick to win but low value. Do it when it's cheap, or when it supports a "Do first" page (e.g. as internal links).
+- **Skip**: not worth the effort now.
+
+Labels are only given alongside real scores (Level 2 or 3), never at Level 1.
+
 ---
 
 ## Quick wins
